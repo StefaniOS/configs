@@ -90,6 +90,9 @@ export LANG=en_US.UTF-8
 #   export EDITOR='mvim'
 # fi
 
+# replace nvim with vim
+alias vim="nvim"
+
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
 
