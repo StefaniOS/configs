@@ -1,13 +1,12 @@
-#Install
+# Install with Dropbox
 $ ./setup.sh 
 
 #parameters
 --hard: Remove all folders and clone again
 
-#Manual Setup
+# Manual Setup
 
 #Navigate to configs folder
-
 
 # Oh My Zsh
 
