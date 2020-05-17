@@ -33,6 +33,9 @@ cp cdimascio-lambda.zsh-theme ~/.oh-my-zsh/themes
 #Update zshrc
 . ~/.zshrc
 
+# Amethyst
+rm ~/Library/Preferences/com.amethyst.Amethyst.plist & cp amethyst/com.amethyst.Amethyst.plist ~/Library/Preferences
+
 # Karabiner
 rm -rf ~/.config/karabiner & cp -R karabiner ~/.config
 
@@ -48,7 +51,5 @@ sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.
       
 run :PlugInstall in neovim
        
- 
-
 # iTerm 2
 rm ~/Library/Preferences/com.googlecode.iterm2.plist & cp iterm2/com.googlecode.iterm2.plist ~/Library/Preferences
