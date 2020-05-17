@@ -37,7 +37,7 @@ cp cdimascio-lambda.zsh-theme ~/.oh-my-zsh/themes
 rm -rf ~/.config/karabiner & cp -R karabiner ~/.config
 
 # Neovim
-brew install neovim
+$ brew install neovim
 
 # iTerm 2
 rm ~/Library/Preferences/com.googlecode.iterm2.plist & cp iterm2/com.googlecode.iterm2.plist ~/Library/Preferences
