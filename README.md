@@ -39,6 +39,9 @@ rm -rf ~/.config/karabiner & cp -R karabiner ~/.config
 # Neovim
 $ brew install neovim
 
+#Make Neovim default editor
+export EDITOR="nvim"
+
 #Install vim-plug for neovim
 sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
        https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
