@@ -39,5 +39,13 @@ rm -rf ~/.config/karabiner & cp -R karabiner ~/.config
 # Neovim
 $ brew install neovim
 
+#Install vim-plug for neovim
+sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
+       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+      
+run :PlugInstall in neovim
+       
+ 
+
 # iTerm 2
 rm ~/Library/Preferences/com.googlecode.iterm2.plist & cp iterm2/com.googlecode.iterm2.plist ~/Library/Preferences
