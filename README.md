@@ -27,13 +27,13 @@ Navigate to `configs` folder
 	git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 
 #Install cdimascio-lambda.zsh-theme
-#Clone/Download theme: https://github.com/cdimascio/lambda-zsh-theme
-#Navigate to downloaded folder and run the following command: 
+	#Clone/Download theme: https://github.com/cdimascio/lambda-zsh-theme
+	#Navigate to downloaded folder and run the following command: 
 
-cp cdimascio-lambda.zsh-theme ~/.oh-my-zsh/themes
+`cp cdimascio-lambda.zsh-theme ~/.oh-my-zsh/themes`
 
 #Update zshrc
-`. ~/.zshrc`
+	`. ~/.zshrc`
 
 # Amethyst
 `rm ~/Library/Preferences/com.amethyst.Amethyst.plist & cp amethyst/com.amethyst.Amethyst.plist ~/Library/Preferences`
