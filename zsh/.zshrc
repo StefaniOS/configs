@@ -90,7 +90,7 @@ export LANG=en_US.UTF-8
 #   export EDITOR='mvim'
 # fi
 
-# replace nvim with vim
+# replace vim with nvim
 alias vim="nvim"
 
 # Compilation flags
