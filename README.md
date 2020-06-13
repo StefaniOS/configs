@@ -45,9 +45,11 @@ Navigate to `configs` folder
 `$ brew install neovim`
 
 #Copy the init file
+
 `mkdir -p ~/.config/nvim && cp nvim/init.vim ~/.config/nvim`
 
-#Make Neovim default editor
+#Make Neovim the default editor
+
 `export EDITOR="nvim"`
 
 #Install vim-plug for neovim
@@ -55,7 +57,7 @@ Navigate to `configs` folder
 `sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
        https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'`
       
-run :PlugInstall in neovim
+open nvim and run :PlugInstall in neovim
        
 # iTerm 2
 
