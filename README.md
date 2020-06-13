@@ -11,10 +11,12 @@ Navigate to configs folder
 #Oh My Zsh
 
 #Install oh-my-zsh
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+`sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
 
 #Overwrite zshrc
-rm ~/.zshrc & cp zsh/.zshrc ~/.zshrc
+
+`rm ~/.zshrc & cp zsh/.zshrc ~/.zshrc`
 
 #Install zsh plugins
 
@@ -31,25 +33,25 @@ rm ~/.zshrc & cp zsh/.zshrc ~/.zshrc
 cp cdimascio-lambda.zsh-theme ~/.oh-my-zsh/themes
 
 #Update zshrc
-. ~/.zshrc
+`. ~/.zshrc`
 
 # Amethyst
-rm ~/Library/Preferences/com.amethyst.Amethyst.plist & cp amethyst/com.amethyst.Amethyst.plist ~/Library/Preferences
+`rm ~/Library/Preferences/com.amethyst.Amethyst.plist & cp amethyst/com.amethyst.Amethyst.plist ~/Library/Preferences`
 
 # Karabiner
-rm -rf ~/.config/karabiner & cp -R karabiner ~/.config
+`rm -rf ~/.config/karabiner & cp -R karabiner ~/.config`
 
 # Neovim
-$ brew install neovim
+`$ brew install neovim`
 
 #Make Neovim default editor
-export EDITOR="nvim"
+`export EDITOR="nvim"`
 
 #Install vim-plug for neovim
-sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
+`sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \`
        https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
       
 run :PlugInstall in neovim
        
 # iTerm 2
-rm ~/Library/Preferences/com.googlecode.iterm2.plist & cp iterm2/com.googlecode.iterm2.plist ~/Library/Preferences
+`rm ~/Library/Preferences/com.googlecode.iterm2.plist & cp iterm2/com.googlecode.iterm2.plist ~/Library/Preferences`
