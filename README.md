@@ -44,6 +44,9 @@ Navigate to `configs` folder
 # Neovim
 `$ brew install neovim`
 
+#Copy the init file
+`mkdir -p ~/.config/nvim && cp nvim/init.vim ~/.config/nvim`
+
 #Make Neovim default editor
 `export EDITOR="nvim"`
 
