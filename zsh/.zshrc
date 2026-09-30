@@ -108,8 +108,20 @@ alias vim="nvim"
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+# Git shortcuts
+alias gs='git status'
+alias gl='git pull'
+alias gp='git push'
+alias gam='git commit --amend'
+alias gd='git diff'
+alias gds='git diff --staged'
+alias gaa='git add --all'
+alias gc='git commit'
+alias gco='git checkout'
+alias gb='git branch'
+alias glf='git fetch && git reset --hard @{upstream}'
+
 [[ -e ~/.profile ]] && emulate sh -c 'source ~/.profile'
 
 #[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-
 
